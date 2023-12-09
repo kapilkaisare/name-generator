@@ -41,17 +41,17 @@
   color: #888;
 }
 
-.letter-selector {
+.option-selector {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
 
-  & .letter {
+  & .option {
 
   }
 
-  & .letter.selected {
+  & .option.selected {
     background-color: #CCCCCC;
   }
 }
